@@ -61,13 +61,31 @@
 ---
 
 ## 📂 Estructura del Repositorio
-├── data/                  
-# Datasets originales y transformados ├── scripts/              
-# Scripts de limpieza, transformación y carga ├── dashboards/            
-# Dashboards Power BI y Dash ├── documentation/        
-# Informe técnico en formato IEEE ├── media/                 
-# Videos explicativos y gráficos de apoyo └── README.m
-
+proyecto_analisis_datos/
+│
+├── 1_extract/                # Datos brutos descargados
+│   ├── deportes/             # Ej: results_football.csv
+│   ├── eventos/              # Ej: eventbrite_data.json
+│   └── restaurantes/         # Ej: yelp_restaurants.csv
+│
+├── 2_transform/              # Datos procesados
+│   ├── cleaned/              # Datos limpios
+│   └── converted/            # Ej: CSV→JSON, JSON→CSV
+│
+├── 3_database/               # Scripts de bases de datos
+│   ├── mysql/                # Schemas y queries SQL
+│   ├── postgresql/
+│   └── mongodb/              # Colecciones y consultas
+│
+├── 4_analysis/               # Análisis y dashboards
+│   ├── sentiment_analysis/   # Scripts Python (NLTK)
+│   └── powerbi/              # Archivos .pbix
+│
+├── docs/                     # Documentación
+│   ├── informe_final.docx    # Versión editable
+│   └── presentacion.pptx
+│
+└── README.md                 # Guía básica del proyecto
 
 ---
 
