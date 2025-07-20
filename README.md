@@ -112,5 +112,5 @@ Este proyecto fue desarrollado con enfoque colaborativo, combinando análisis t�
 
 ## 🔗 Repositorio
 
-Enlace al repositorio: **[https://github.com/usuario/proyecto-analisis-datos-2025A](#)** *(actualizar con URL real)*
+Enlace al repositorio: **[https://github.com/MariaGiron-code/ProyectAnalisis2025A.git](#)** *(actualizar con URL real)*
 
