@@ -9,4 +9,3 @@
 
 ## 🎯 Objetivo
 - Realizar un sistema de distribucion de Alimentos Ganaderos
-  
